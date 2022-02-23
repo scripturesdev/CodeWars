@@ -1,4 +1,4 @@
-var moveZeros = function (arr) {
+function moveZeros(arr) {
     let len = arr.length
     let idx = len - 1
     let flag = true
@@ -23,7 +23,7 @@ var moveZeros = function (arr) {
     return arr
   }
 
-  console.log(moveZeros([9,0,9,1,2,1,1,3,1,9,0,0,9,0,0,0,0,0,0,0]))
+  console.log(moveZeros([a,0,0,b,,c,d,0,1,false,0,1,0,3,,0,1,9,0,0,[object,Object],0,0,9]))
 
   /*
 [9,0,9,1,2,1,1,3,1,9,0,0,9,0,0,0,0,0,0,0]
